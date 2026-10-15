@@ -19,7 +19,7 @@ market with the exact time each was recorded, and 661,507 dated snapshots from 3
 | `sample/` | The free 20-match sample: same files, same columns as the full product |
 | `Intl_Verify_Before_You_Buy.ipynb` | *Verify before you buy*: every figure of the listing recomputed on the **full** product, outputs included |
 
-Also on [Hugging Face](https://huggingface.co/datasets/oliviersportsdata/International-Football-Timestamped-Odds-Pinnacle-Match-Stats), with a table viewer, and on [Kaggle](https://www.kaggle.com/datasets/oliviersportsdata/international-football-odds-incl-pinnacle-sample).
+Also on [Hugging Face](https://huggingface.co/datasets/oliviersportsdata/International-Football-Timestamped-Odds-Pinnacle-Match-Stats), with a table viewer, and on [Kaggle](https://www.kaggle.com/datasets/oliviersportsdata/international-football-odds-with-pinnacle-sample/data).
 
 ---
 

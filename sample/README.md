@@ -543,6 +543,49 @@ Each decision below is written in the build code with its evidence; the build st
 
 **Half-time scores.** 1 half-time score was higher than the final score (the source counted a goal it later cancelled): left empty rather than wrong.
 
+**Home / away orientation.** A bookmaker sometimes lists a fixture with the two teams the other way round. Every price series is aligned on the match's home and away teams: 1X2 and Asian handicap, full time and half time, with the handicap line and the live score turned with it (134 match-bookmaker series turned: Pinnacle 58, Unibet 54, Betfair 13, Betsson 8, Bet365 1); the other bookmakers' snapshots likewise (1,939 match-bookmaker sets). 1 match was listed by the source with home and away reversed, while almost all bookmakers show the other team at home; each case was checked against the clubs' usual grounds and the home / away balance of the pair in the season. This match is turned around everywhere (teams, goals, lineups, statistics, events, prices); turning a match leaves its venue as it was:
+
+| Source event | League | Date | Home | Away |
+|---|---|---|---|---|
+| 6054180 | SUDAM | 2023-03-08 | Guabira | Oriente Petrolero |
+
+**32 fixtures are not in the tables** because the source never marked them as finished (21 result decided by the federation; 9 result never confirmed by the source; 1 interrupted; 1 abandoned). They are listed so that a gap in a season is never silent:
+
+| Source event | League | Date | Home | Away | Score shown | Status |
+|---|---|---|---|---|---|---|
+| 2174489 | AFC_CL | 2020-02-10 | Al Hilal Riyadh | Shahr Khodro | 2-0 | result decided by the federation |
+| 2137199 | AFC_CL | 2020-02-17 | Shabab Al Ahli Dubai | Al Hilal Riyadh | 1-2 | result decided by the federation |
+| 2614550 | AFC_CL | 2020-09-14 | Al Hilal Riyadh | Pakhtakor Tashkent | 2-1 | result decided by the federation |
+| 2614551 | AFC_CL | 2020-09-17 | Pakhtakor Tashkent | Al Hilal Riyadh | 0-0 | result decided by the federation |
+| 2614997 | AFC_CL | 2020-09-20 | Shahr Khodro | Al Hilal Riyadh | 0-0 | result decided by the federation |
+| 3411411 | AFC_CL | 2021-04-07 | Al-Wehdat | Al Quwa Al Jawiya | 0-0 | result never confirmed by the source |
+| 7122750 | AFC_CL | 2023-10-02 | Sepahan | Al Ittihad Jeddah | 0-3 | result decided by the federation |
+| 1591487 | CAF_CL | 2019-05-31 | Esperance de Tunis | WAC Casablanca | 1-0 | abandoned |
+| 2996332 | CAF_CL | 2020-12-05 | Stade Malien | Ashanti GB | 2-0 | result decided by the federation |
+| 3003176 | CAF_CL | 2020-12-06 | Asante Kotoko | FC Nouadhibou | 2-0 | result decided by the federation |
+| 3126826 | CAF_CL | 2021-01-05 | El Zamalek | Gazelle FC |  | result decided by the federation |
+| 7151447 | CAF_CL | 2023-08-25 | AS GNN | AS Douanes Ouagadougou |  | result decided by the federation |
+| 7138372 | CAF_CL | 2023-09-01 | AS Douanes Ouagadougou | AS GNN |  | result decided by the federation |
+| 8716860 | CAF_CL | 2024-08-25 | Djoliba AC | Red Star Bangui |  | result decided by the federation |
+| 8929260 | CAF_CL | 2024-11-26 | Young Africans | Al Merrikh |  | result never confirmed by the source |
+| 8929642 | CAF_CL | 2024-12-06 | Al Merrikh | TP Mazembe |  | result never confirmed by the source |
+| 8929286 | CAF_CL | 2024-12-13 | MC Alger | Al Merrikh |  | result never confirmed by the source |
+| 8929287 | CAF_CL | 2025-01-03 | Al Merrikh | MC Alger |  | result never confirmed by the source |
+| 8929264 | CAF_CL | 2025-01-10 | Al Merrikh | Young Africans |  | result never confirmed by the source |
+| 8929643 | CAF_CL | 2025-01-17 | TP Mazembe | Al Merrikh |  | result never confirmed by the source |
+| 3033507 | LIBERTA | 2020-12-18 | Nacional De Football | CA River Plate |  | result never confirmed by the source |
+| 9684180 | LIBERTA | 2025-04-09 | CA River Plate | Barcelona Guayaquil |  | result never confirmed by the source |
+| 11619368 | LIBERTA | 2026-05-08 | Junior | Cerro Porteno | 0-1 | interrupted |
+| 10359509 | SUDAM | 2025-08-21 | CA Independiente | Universidad de Chile | - | result decided by the federation |
+| 4730880 | UEFA_EL | 2022-03-10 | RB Leipzig | Spartak Moscow |  | result decided by the federation |
+| 4730881 | UEFA_EL | 2022-03-17 | Spartak Moscow | RB Leipzig |  | result decided by the federation |
+| 2230123 | UEFA_NL | 2020-11-15 | Romania | Norway | 3-0 | result decided by the federation |
+| 2231204 | UEFA_NL | 2020-11-17 | Switzerland | Ukraine | 3-0 | result decided by the federation |
+| 4459582 | UEFA_NL | 2022-06-02 | Albania | Russia |  | result decided by the federation |
+| 4459534 | UEFA_NL | 2022-06-06 | Israel | Russia |  | result decided by the federation |
+| 4459584 | UEFA_NL | 2022-06-10 | Russia | Iceland |  | result decided by the federation |
+| 4463589 | UEFA_NL | 2022-06-13 | Russia | Albania |  | result decided by the federation |
+
 ## Said plainly - known limitations
 
 - **UEFA European Championship 2020**: Betfair and Betsson were not collected for this tournament.

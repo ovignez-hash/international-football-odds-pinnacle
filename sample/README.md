@@ -25,7 +25,7 @@ This sample is an exact copy of the full product: same files, same columns, same
 | 11797845 | CAF_CL | 2025/26 | Final | 2026-05-24 | FAR Rabat - Mamelodi Sundowns | 1-1 · agg 1-2 |
 | 11271497 | CAF_AFCON | 2025 | Final | 2026-01-18 | Senegal - Morocco | 0-0 · 1-0 aet |
 
-Full product (all 11,118 matches): https://sportsdataolivier.gumroad.com/l/hethzg?utm_source=sample_readme&utm_medium=readme&utm_campaign=intl_premium&utm_content=sample_readme
+Full product (all 11,118 matches): **[→ Get the full dataset on Gumroad](https://sportsdataolivier.gumroad.com/l/hethzg?utm_source=github&utm_medium=sample_readme&utm_campaign=intl_premium&utm_content=readme)**
 
 Questions: contact@oliviersportsdata.com
 
